@@ -1,0 +1,20 @@
+# Build artifacts
+/target/
+**/*.rs.bk
+*.pdb
+*.profraw
+
+# Cargo.lock for libraries
+# (uncomment if you want to commit it for applications)
+/Cargo.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db

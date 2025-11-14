@@ -1,0 +1,20 @@
+[package]
+    authors     = ["Eric Evans <ciresnave@gmail.com>"]
+    build       = "build.rs"
+    categories  = ["external-ffi-bindings", "science"]
+    description = "Rust FFI bindings for NVIDIA CUTLASS - CUDA Templates for Linear Algebra Subroutines"
+    edition     = "2021"
+    keywords    = ["cuda", "cutlass", "ffi", "gpu", "nvidia"]
+    license     = "MIT OR Apache-2.0"
+    links       = "cutlass"
+    name        = "cutlass-sys"
+    repository  = "https://github.com/ciresnave/cutlass-sys"
+    version     = "4.2.1"
+
+[dependencies]
+
+[build-dependencies]
+    flate2  = "1.0"
+    reqwest = { version = "0.12", features = ["blocking"] }
+    tar     = "0.4"
+    zip     = "6"
