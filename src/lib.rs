@@ -19,7 +19,7 @@
 //!
 //! ```rust,no_run
 //! fn main() {
-//!     let cutlass_include = std::env::var("DEP_CUTLASS_INCLUDE_DIR")
+//!     let cutlass_include = std::env::var("DEP_CUTLASS_SYS_INCLUDE_DIR")
 //!         .expect("cutlass-sys should set this");
 //!     
 //!     println!("cargo:rustc-link-search=native={}", cutlass_include);
